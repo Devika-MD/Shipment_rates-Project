@@ -37,7 +37,6 @@ db.cities.insertMany([
   <li>This code assumes that the "cities" collection already exists in your MongoDB database.</li>
   <li>You can modify the <code>name</code> and <code>block</code> values in the array to match your specific city and block mappings.</li>
 </ul>
-
+<p>This query will efficiently insert all the necessary city data into your database for the shipment rate calculation API.</p>![Screenshot 2024-12-29 194302]
 <h1>The Sample output for request and response in Postman</h1>
-
-<p>This query will efficiently insert all the necessary city data into your database for the shipment rate calculation API.</p>![Screenshot 2024-12-29 194302](https://github.com/user-attachments/assets/dd70e4d8-c594-4eb2-8e1a-11d5f7b0f51e)
+(https://github.com/user-attachments/assets/dd70e4d8-c594-4eb2-8e1a-11d5f7b0f51e)
