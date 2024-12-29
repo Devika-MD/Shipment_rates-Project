@@ -40,3 +40,27 @@ db.cities.insertMany([
 <p>This query will efficiently insert all the necessary city data into your database for the shipment rate calculation API.</p>![Screenshot 2024-12-29 194302]
 <h1>The Sample output for request and response in Postman</h1>
 (https://github.com/user-attachments/assets/dd70e4d8-c594-4eb2-8e1a-11d5f7b0f51e)
+
+<h2>Request</h2>
+<pre><code>
+{
+  "origin": "Indore",
+  "destination": "Raipur",
+  "weight": 55,
+  "invoiceValue": 15000,
+  "riskType": "carrier"
+}
+</code></pre>
+
+<h2>Response</h2>
+<pre><code>
+{
+  "baseFreight": 495,
+  "fuelSurcharge": 99,
+  "dktCharge": 100,
+  "fovCharge": 300,
+  "odaCharge": 0, 
+  "appointmentCharge": 0, 
+  "totalCost": 1094
+}
+</code></pre>
