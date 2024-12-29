@@ -1,5 +1,5 @@
 # Shipment_rates-Project
-
+<p>This shipment rate calculation project is built using NodeJS, ExpressJS and MongoDB. For getting response at end I used Postman.</p>
 <h2>Inserting City Data into MongoDB</h2>
 
 <p>This JavaScript code demonstrates how to insert multiple city documents into a MongoDB collection using the <code>db.cities.insertMany()</code> command.</p>
