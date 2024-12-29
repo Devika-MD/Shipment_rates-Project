@@ -64,3 +64,5 @@ db.cities.insertMany([
   "totalCost": 1094
 }
 </code></pre>
+<h4>next steps</h4>
+<p>Run the JS file and give the necessary path in postman with JSON request to give response.</p>
